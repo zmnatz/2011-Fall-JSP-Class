@@ -1,0 +1,45 @@
+<p>Welcome to OffCampusFood.com!</p>
+<p> Have a local restaurant in mind? </p>
+<p> Then type in your address and search for restaurants near you! </p>
+
+<script>
+function formSubmit(arg1){
+	with(document.frmMain){
+		switch(arg1){
+		
+		case 'Search Restaurants':
+			if(!validateForm()) 
+				return false;
+			action = 'restSearch';
+			submit();
+			break;
+		}
+	}
+}
+
+function validateForm(){
+	var formValid = true;
+	formValid = checkParam('rest') && formValid;
+	formValid = checkParam('city') && formValid;
+	formValid = checkParam('state') && formValid;
+	formValid = checkParam('zipCode') && formValid;
+	
+	if(!formValid)
+		alert('Fix the indicated validation errors first.');
+	return formValid;
+}
+
+</script>
+
+<div class="section">
+
+	<span class="sectionTitle">Restaurant Info</span>
+ 	
+
+	<div><label>City:</label><input type="text" name="city" id=city value = "<%= request.getParameter("city")==null ? "" : request.getParameter("city") %>"/>
+		<span class="error" id="cityError"></span>
+	</div>
+
+	 <input type="button" value="Search Restaurants" onClick="formSubmit('Search Restaurants')"/>
+	
+</div> 

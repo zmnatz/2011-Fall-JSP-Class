@@ -1,0 +1,11 @@
+package edu.jhu.cs605782.ui;
+
+import javax.servlet.http.HttpServlet;
+
+public abstract class AbstractOcfController extends HttpServlet {
+	protected Map<String,Object> initModel(HttpServletRequest request){
+		Map<String,Object> model = new HashMap<String,Object>();
+		
+		return model;
+	}
+}

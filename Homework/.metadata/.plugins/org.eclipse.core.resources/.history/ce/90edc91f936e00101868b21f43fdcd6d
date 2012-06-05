@@ -1,0 +1,7 @@
+package edu.jhu.cs605782.ui;
+
+import javax.servlet.http.HttpServlet;
+
+public abstract class AbstractOcfController extends HttpServlet {
+
+}

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/38/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/dao
+END
+OrderDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/73/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/dao/OrderDao.java
+END
+ItemDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/34/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/dao/ItemDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/38/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/dao/UserDao.java
+END
+CreditCardDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/46/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/dao/CreditCardDao.java
+END
+AddressDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/15/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/dao/AddressDao.java
+END
+DaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/74/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/dao/DaoFactory.java
+END
+LoginDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/38/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/dao/LoginDao.java
+END
+RestaurantDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/38/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/dao/RestaurantDao.java
+END

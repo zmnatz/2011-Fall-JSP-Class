@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="dbPool"
+	            auth="Container"
+	            type="oracle.jdbc.pool.OracleDataSource"
+	            driverClassName="oracle.jdbc.OracleDriver"
+	            factory="oracle.jdbc.pool.OracleDataSourceFactory"
+	            url="jdbc:oracle:thin:@zmnatz.dyndns.org:1521:XE"
+	            user="FOOD"
+	            password="FOOD"
+				maxActive="20"
+	            maxIdle="10"
+	            maxWait="-1"
+	            removeAbandoned="true"
+	            removeAbandonedTimeout="300"/>
+</Context>

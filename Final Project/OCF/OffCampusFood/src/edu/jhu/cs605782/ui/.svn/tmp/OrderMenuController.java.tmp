@@ -1,0 +1,73 @@
+package edu.jhu.cs605782.ui;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import edu.jhu.cs605782.offcampusfood.entities.Restaurant;
+import edu.jhu.cs605782.offcampusfood.dao.OrderDao;
+import edu.jhu.cs605782.offcampusfood.dao.RestaurantDao;
+import edu.jhu.cs605782.offcampusfood.dao.DaoFactory;
+import edu.jhu.cs605782.offcampusfood.entities.Order;
+
+
+public class OrderMenuController extends AbstractOcfController{
+	
+	private static final long serialVersionUID = 1L;
+	
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	//	doGet(request,response);
+		
+		Map<String,Object> model = initModel(request);
+		RestaurantDao rDao = DaoFactory.getInstance().getRestaurantDao();
+		OrderDao oDao = DaoFactory.getInstance().getOrderDao();
+		String id = request.getParameter("restId");
+		
+		Restaurant r = rDao.getRestaurantById(Integer.parseInt(id));
+		
+		Order currentOrder = (Order)request.getSession().getAttribute("currentOrder");
+		
+		if(currentOrder==null){ 
+			currentOrder = new Order(); 
+			currentOrder.setRestaurantId(Integer.parseInt(id));
+			request.getSession().setAttribute("currentOrder", currentOrder);
+		}
+		else{ 
+			//new order
+			if(!currentOrder.getRestaurantId().equals(Integer.parseInt(id))){ 
+				currentOrder = new Order(); 
+				currentOrder.setRestaurantId(Integer.parseInt(id));
+				request.getSession().setAttribute("currentOrder", currentOrder);
+			}
+		}
+		//request.getSession().setAttribute("currentOrder", new Order());
+		request.getSession().setAttribute("result", r);
+		model.put("contentPage", "order.jsp");
+		model.put("actions", getActions());
+		forward(request,response,model);
+		
+	}
+	private List<String> getActions(){
+		return Arrays.asList("Checkout","Clear Order");
+	}
+	
+
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Assignment6</display-name>
+  <welcome-file-list>
+    <welcome-file>registrationForm.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>RegistrationSubmit</display-name>
+    <servlet-name>RegistrationSubmit</servlet-name>
+    <servlet-class>RegistrationSubmit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationSubmit</servlet-name>
+    <url-pattern>/RegistrationSubmit.htm</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddCourses</display-name>
+    <servlet-name>AddCourses</servlet-name>
+    <servlet-class>AddCourses</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCourses</servlet-name>
+    <url-pattern>/AddCoursesSubmit.htm</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RemoveCourse</display-name>
+    <servlet-name>RemoveCourse</servlet-name>
+    <servlet-class>RemoveCourse</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveCourse</servlet-name>
+    <url-pattern>/RemoveCourse.htm</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RegistrationConfirm</display-name>
+    <servlet-name>RegistrationConfirm</servlet-name>
+    <servlet-class>RegistrationConfirm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationConfirm</servlet-name>
+    <url-pattern>/RegistrationConfirm.htm</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,223 @@
+@CHARSET "ISO-8859-1";
+#header {
+	background: url(img/offcampuslogo.png) no-repeat;
+	height: 190px;
+	vertical-align: bottom;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    behavior: url(/img/border-radius.htc);
+}
+
+#footer {
+	clear: both;
+	position: relative;
+	z-index: 10;
+	background-color: #006591;
+	height: 25px;
+	margin-top: 10px;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(/img/border-radius.htc);
+    color: white;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+}
+
+#streamer {
+	float: right;
+	width: 220px;
+	height: 300px;
+	padding-top: 10px;
+	margin-top: -20px;
+}
+
+#streamer h1{
+	font: bold 20px Trebuchet MS;
+	color: #E49639;
+	background-color: #006591;
+	padding: 0px 15px 5px 15px;
+	border-bottom: 4px solid #EBAE2A;
+	-moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -khtml-border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    behavior: url(/img/border-radius.htc);
+}
+
+#streamer div{
+	font: 16px Trebuchet MS;
+	color: #E49639;
+	background-color: #006591;
+	padding: 5px;
+	margin: 5px;
+}
+
+#body {
+	width: 935px;
+	background: #006591; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#90B6E8', endColorstr='#FFFFFF'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#90B6E8), to(#FFFFFF)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #90B6E8,  #FFFFFF); /* for firefox 3.6+ */ 
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(/img/border-radius.htc);
+    padding: 10px;
+}
+
+#content {
+	padding-top: 15px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;	
+	width: 690px;
+	background-color: white;
+    min-height: 300px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(/img/border-radius.htc);
+}
+
+#content .toolbar-top{
+	text-align: center;
+	padding: 0px;
+	color: #E49639;
+	background-color: #006591;
+	border-bottom: 4px solid #EBAE2A;
+	-moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -khtml-border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -15px;
+	height: 30px;
+}
+
+#content .toolbar-bottom{
+	text-align: center;
+	padding: 0px;
+	color: #E49639;
+	background-color: #006591;
+	border-top: 4px solid #EBAE2A;
+	-moz-border-radius: 0px 0px 20px 20px;
+    -webkit-border-radius: 0px 0px 20px 20px;
+    -khtml-border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 20px 20px ;
+	margin-left: -10px;
+	margin-right: -10px;
+	height: 30px;
+}
+
+#content input[type="button"]{
+	width: 120px;	
+}
+
+#login {
+	background-color: #90B6E8;
+	padding: 5px;
+	margin: 30px 10px 0px 10px;
+	width: 200px;
+	height: 90px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	float: right;
+	border: 4px solid #EBAE2A;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(/img/border-radius.htc);
+}
+
+#login input[type="text"]{
+	border: 2px solid #EBAE2A;
+}
+
+#login input[type="password"]{
+	border: 2px solid #EBAE2A;
+}
+
+#login input[type="button"] {
+	width: 60px;
+}
+
+#login input[type="submit"] {
+	width: 60px;
+}
+
+#login label {
+	width: 60px; 
+	padding-right: 5px; 
+	padding-bottom: 3px; 
+	text-align: right;
+	float:left;
+}
+
+#login div {
+	height: 30px;	
+}
+
+.error {
+	font-weight: bold;
+	text-align: center;
+	color: red
+}
+
+.section {
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(/img/border-radius.htc);
+	border-width: 1px; border-style: solid; border-color:#444444;
+	margin:10px;
+	padding: 10px;
+}
+.section div {
+	min-height: 30px;
+}
+
+.section label {
+	float: left;
+	text-align: right;
+	width: 120px;
+	padding-right: 10px;
+}
+
+.sectionTitle {
+	float: top;
+	font-size:16px;
+	position: relative;
+	top: -20px;
+	margin-left: 10px;
+	background-color: white;
+	padding-left:5px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+.rows div {
+	padding: 8px 0px 8px 0px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.rows div:hover {
+	background-color: #A2C2F4;
+}
+
+.rows input[type="button"] {
+	position: relative;
+	float: right;
+}
+
+.rows .right { float: right; margin-right: 40px}

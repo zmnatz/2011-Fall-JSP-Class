@@ -1,0 +1,24 @@
+package edu.jhu.cs605782.ui;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public abstract class AbstractOcfController extends HttpServlet {
+	protected Map<String,Object> initModel(HttpServletRequest request){
+		Map<String,Object> model = new HashMap<String,Object>();
+		
+		return model;
+	}
+	
+	protected void forward(HttpServletRequest request, HttpServletResponse response, Map<String,Object> model) throws ServletException, IOException{
+		request.setAttribute("model",model);
+		
+		getServletContext().getRequestDispatcher("/template.jsp").forward(request, response);
+	}
+}

@@ -1,0 +1,51 @@
+Ext.setup({
+    glossOnIcon: false,
+    onReady: function() {
+        var panel = new Ext.TabPanel({
+            fullscreen: true,
+            cardSwitchAnimation: 'slide',
+            tabBarDock: 'bottom',
+            items: [
+                {
+                    title: 'Movies',
+                    html : '1'
+                },
+                {
+                    title: 'Friends',
+                    html : '2'
+                },
+                {
+                    title: 'Watch List',
+                    html : '3'
+                },
+                {
+                	title: 'Remote',
+                	html : '4'
+                }
+            ]
+            dockedItems: [
+	              {
+	                  dock : 'top',
+	                  xtype: 'toolbar',
+	                  ui   : 'light',
+	                  items: [
+	                      {
+	                          text: 'Test Button'
+	                      }
+	                  ]
+	              },
+	              {
+	            	  dock: 'bottom',
+	            	  xtype: 'toolbar',
+	            	  items: [
+				          {text: 'Movies'},
+				          {text: 'Friends'},
+				          {text: 'Watch List'},
+				          {text: 'Remote'}
+        	          ]
+	              }
+	          ],
+	          html: 'Testing'
+        });
+    }
+});

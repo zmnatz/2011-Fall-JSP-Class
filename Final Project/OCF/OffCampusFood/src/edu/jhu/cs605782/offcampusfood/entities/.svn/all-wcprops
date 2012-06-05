@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/48/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/entities
+END
+CreditCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/31/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/entities/CreditCard.java
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/43/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/entities/Address.java
+END
+Restaurant.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/42/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/entities/Restaurant.java
+END
+Login.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/48/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/entities/Login.java
+END
+Order.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/72/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/entities/Order.java
+END
+BasicInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/43/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/entities/BasicInfo.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/42/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/entities/User.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/44/trunk/OffCampusFood/src/edu/jhu/cs605782/offcampusfood/entities/Item.java
+END

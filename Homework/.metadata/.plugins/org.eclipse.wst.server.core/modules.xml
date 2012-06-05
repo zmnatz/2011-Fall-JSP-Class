@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:Assignment1" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Assignment3" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Assignment2" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:OffCampusFood" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Assignment5" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:CouchPotatoRemote" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Assignment6" serverId="Tomcat v6.0 Server at localhost"/>
+</modules>

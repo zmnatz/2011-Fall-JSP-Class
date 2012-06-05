@@ -1,0 +1,10 @@
+#Sun Feb 06 12:04:24 EST 2011
+fixTomcatHomeBug=fixed
+contextsDir=C\:\\Users\\Zaven\\My Dropbox\\Programs\\tomcat\\conf\\Catalina\\localhost
+tomcatDir=C\:\\Users\\Zaven\\My Dropbox\\Programs\\tomcat
+computeSourcePath=true
+tomcatJRE=1297011642195
+tomcatConfigFile=C\:\\Users\\Zaven\\My Dropbox\\Programs\\tomcat\\conf\\server.xml
+eclipse.preferences.version=1
+tomcatVersion=tomcatV6
+managerUrl=http\://localhost\:8080/manager

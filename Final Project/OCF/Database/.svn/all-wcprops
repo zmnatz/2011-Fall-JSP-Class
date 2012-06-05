@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/38/trunk/Database
+END
+create_user.sql
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3/trunk/Database/create_user.sql
+END
+tbl_creditcard.sql
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/16/trunk/Database/tbl_creditcard.sql
+END
+triggers.sql
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/16/trunk/Database/triggers.sql
+END
+tbl_address.sql
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/9/trunk/Database/tbl_address.sql
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/3/trunk/Database/notes.txt
+END
+tbl_login.sql
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/38/trunk/Database/tbl_login.sql
+END
+tbl_restaurant.sql
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/22/trunk/Database/tbl_restaurant.sql
+END
+sequences.sql
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/16/trunk/Database/sequences.sql
+END
+tbl_restaurant_item_xref.sql
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/Database/tbl_restaurant_item_xref.sql
+END
+tbl_order.sql
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3/trunk/Database/tbl_order.sql
+END
+tbl_order_item_xref.sql
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/Database/tbl_order_item_xref.sql
+END
+tbl_user.sql
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3/trunk/Database/tbl_user.sql
+END
+tbl_item.sql
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3/trunk/Database/tbl_item.sql
+END

@@ -1,0 +1,96 @@
+package edu.jhu.cs605782.ui;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import edu.jhu.cs605782.offcampusfood.entities.BasicInfo;
+import edu.jhu.cs605782.offcampusfood.entities.Restaurant;
+import edu.jhu.cs605782.offcampusfood.entities.Item;
+import edu.jhu.cs605782.offcampusfood.entities.Order;
+import edu.jhu.cs605782.offcampusfood.entities.User;
+import edu.jhu.cs605782.offcampusfood.entities.CreditCard;
+import edu.jhu.cs605782.offcampusfood.dao.RestaurantDao;
+import edu.jhu.cs605782.offcampusfood.dao.OrderDao;
+import edu.jhu.cs605782.offcampusfood.dao.DaoFactory;
+
+public class CheckoutController extends AbstractOcfController{
+	
+	private static final long serialVersionUID = 1L;
+	
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		Map<String,Object> model = initModel(request);
+		Restaurant restaurant = (Restaurant)request.getSession().getAttribute("result");
+		Order currentOrder = (Order)request.getSession().getAttribute("currentOrder");
+		BasicInfo currentUser = (BasicInfo)request.getSession().getAttribute("currentUser");
+		User user =  (User)currentUser;
+		ArrayList<CreditCard> cards = (ArrayList<CreditCard>)user.getCreditCards();
+		
+		request.getSession().setAttribute("currentOrder", currentOrder);
+		model.put("contentPage", "checkout.jsp");
+		model.put("actions", getActions());
+		forward(request,response,model);
+
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	//	doGet(request,response);
+		
+		Map<String,Object> model = initModel(request);
+		Restaurant restaurant = (Restaurant)request.getSession().getAttribute("result");
+		Order currentOrder = (Order)request.getSession().getAttribute("currentOrder");
+		BasicInfo currentUser = (BasicInfo)request.getSession().getAttribute("currentUser");
+		User user =  (User)currentUser;
+		ArrayList<CreditCard> cards = (ArrayList<CreditCard>)user.getCreditCards();
+		String submitType= request.getParameter("submitType");
+		
+		currentOrder.setRestaurantId(restaurant.getRestaurantId());
+		currentOrder.setUserId(user.getUserId());
+	
+		
+		
+		if(submitType!=null && submitType.equals("FINAL")){ 
+			if(restaurant.getOrders()==null){ 
+				restaurant.setOrders(new ArrayList<Order>());
+			}
+			
+			restaurant.getOrders().add(currentOrder);
+			currentOrder.setComplete(true);
+			OrderDao oDao = DaoFactory.getInstance().getOrderDao();
+			oDao.insertOrder(currentOrder);
+			
+			String paidCard = request.getParameter("cc");
+		
+			//request.getSession().setAttribute("currentOrder", new Order());
+			request.getSession().setAttribute("paidCard",paidCard);
+			model.put("contentPage", "finalOrder.jsp");
+			model.put("actions", Arrays.asList("Return Home"));
+			forward(request,response,model);
+		}
+		else{ 
+			request.getSession().setAttribute("currentOrder", currentOrder);
+			model.put("contentPage", "checkout.jsp");
+			model.put("actions", getActions());
+			forward(request,response,model);
+		}
+
+
+	}
+	private List<String> getActions(){
+		return Arrays.asList("Final Checkout", "Revise Order");
+	}
+
+}

@@ -1,0 +1,14 @@
+Run create_user.sql
+
+Creation Order:
+LOGIN
+ADDRESS
+ITEM
+USERS
+CREDITCARD
+RESTAURANT
+ORDER
+ORDER_ITEM_XREF
+RESTAURANT_ORDER_XREF
+
+Then run sequences.sql and then triggers.sql

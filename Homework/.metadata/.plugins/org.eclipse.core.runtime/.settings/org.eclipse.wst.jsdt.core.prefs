@@ -1,0 +1,16 @@
+#Tue Apr 26 18:33:10 EDT 2011
+org.eclipse.wst.jsdt.core.codeComplete.argumentPrefixes=
+org.eclipse.wst.jsdt.core.codeComplete.localPrefixes=
+org.eclipse.wst.jsdt.core.compiler.problem.unresolvedFieldReference=warning
+org.eclipse.wst.jsdt.core.compiler.problem.forbiddenReference=warning
+org.eclipse.wst.jsdt.core.codeComplete.localSuffixes=
+org.eclipse.wst.jsdt.core.compiler.taskCaseSensitive=enabled
+semanticValidation=disabled
+org.eclipse.wst.jsdt.core.compiler.taskTags=TODO,FIXME,XXX
+org.eclipse.wst.jsdt.core.compiler.problem.unresolvedMethodReference=warning
+org.eclipse.wst.jsdt.core.codeComplete.argumentSuffixes=
+org.eclipse.wst.jsdt.core.codeComplete.visibilityCheck=enabled
+eclipse.preferences.version=1
+org.eclipse.wst.jsdt.core.compiler.problem.unresolvedTypeReference=warning
+org.eclipse.wst.jsdt.core.compiler.problem.potentialNullReference=warning
+org.eclipse.wst.jsdt.core.compiler.taskPriorities=NORMAL,HIGH,NORMAL

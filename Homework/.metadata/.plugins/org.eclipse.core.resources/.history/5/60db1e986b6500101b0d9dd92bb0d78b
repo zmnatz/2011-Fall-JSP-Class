@@ -1,0 +1,114 @@
+@CHARSET "ISO-8859-1";
+#header {
+	background: url(img/offcampuslogo.png) no-repeat;
+	height: 190px;
+	vertical-align: bottom;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    behavior: url(/img/border-radius.htc);
+}
+
+#footer {
+	clear: both;
+	position: relative;
+	z-index: 10;
+	background-color: #006591;
+	height: 25px;
+	margin-top: 10px;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(/img/border-radius.htc);
+    color: white;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+}
+
+#streamer {
+	float: right;
+	width: 220px;
+	height: 300px;
+	padding-top: 10px;
+	margin-top: -20px;
+}
+
+#streamer h1{
+	font: bold 20px Trebuchet MS;
+	color: #E49639;
+	background-color: #006591;
+	padding: 5px 15px 5px 15px;
+	border-bottom: 4px solid #EBAE2A;
+	-moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -khtml-border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    behavior: url(/img/border-radius.htc);
+}
+
+#body {
+	width: 935px;
+	background: #006591; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#90B6E8', endColorstr='#FFFFFF'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#90B6E8), to(#FFFFFF)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #90B6E8,  #FFFFFF); /* for firefox 3.6+ */ 
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(/img/border-radius.htc);
+    padding: 10px;
+    
+}
+
+#content {
+ 	padding: 10px;	
+	width: 690px;
+	background-color: white;
+    min-height: 300px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(/img/border-radius.htc);
+}
+
+
+#login {
+	background-color: #90B6E8;
+	padding: 10px;
+	margin: 30px 10px 0px 10px;
+	width: 200px;
+	height: 90px;
+	text-align: right;
+	float: right;
+	border: 4px solid #EBAE2A;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(/img/border-radius.htc);
+}
+
+#login input[type="text"]{
+	border: 2px solid #EBAE2A;
+}
+
+#login input[type="password"]{
+	border: 2px solid #EBAE2A;
+}
+
+#login input[type="submit"] {
+	margin-top: 15px;
+	width: 80px;
+}
+
+label {
+	width: 60px; 
+	padding-right: 5px; 
+	padding-bottom: 3px; 
+	text-align: right;
+}

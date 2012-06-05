@@ -1,0 +1,77 @@
+<%@ page import="edu.jhu.cs605782.offcampusfood.entities.BasicInfo" %>
+<%@ page import="java.util.HashMap" %>
+<%
+	HashMap<String,Object> model = (HashMap<String,Object>) request.getAttribute("model");
+	BasicInfo currentUser = (BasicInfo)request.getSession().getAttribute("currentUser");
+	if(currentUser==null)
+		currentUser = new BasicInfo();
+%>
+<link rel="stylesheet" href="ext-3.3.1/resources/css/ext-all.css" type="text/css"></link>
+<script type="text/javascript" src="ext-3.3.1/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="ext-3.3.1/ext-all.js"></script>
+<script>
+function formSubmit(arg1){
+	with(document.frmMain){
+		switch(arg1){
+		case 'Reset':
+			reset();
+			break;
+		case 'Save Info':
+			action = 'updateInfo';
+			submit();
+			break;
+		}
+	}
+}
+function validateForm(form){
+	if(form.loginType){
+		var statusSelected = false;
+		for(var i=0;i<status.length;i++)
+			if(status[i].checked){
+				statusSelected = true;
+				break;
+			}
+	}
+}
+</script>
+<div style="padding: 20px">
+	<label style="width: 120px; padding-left: 10px;">Registration Type:</label>
+<% if(currentUser.getLogin()==null) {%>
+	<input type="radio" id="loginType" name="loginType" value="USER"/> User
+	<input type="radio" id="loginType" name="loginType" value="RESTAURANT"/> Restaurant
+<% } else { %>
+	<%= currentUser.getLogin().getLoginType().substring(0,1).toUpperCase() + 
+			currentUser.getLogin().getLoginType().substring(1).toLowerCase() %>
+<% } %>
+</div>
+<div class="section">
+	<span class="sectionTitle">Registration Info</span>
+<% if(currentUser.getLogin()==null) {%>
+	<div><label>Email:</label><input type="text" name="email"/></div>
+	<div><label>Password:</label><input type="password" name="password"/></div>
+	<div><label>Retype Password:</label><input type="password" name="repassword"/></div>
+<% } else { %>
+	<div><label>Email:</label><%= currentUser.getLogin().getEmail() %></div>
+<% } %>
+</div>
+<div class="section">
+	<span class="sectionTitle">Basic Information</span>
+	<div><label>Name:</label><input type="text" name="name" value="<%= currentUser.getName() %>"/></div>
+	<div><label>Phone Number:</label><input type="text" name=phoneNumber value="<%= currentUser.getPhoneNumber() %>"/></div>
+</div>
+<div class="section">
+	<span class="sectionTitle">Address</span>
+	<div><label>Street Address 1:</label><input type="text" name="streetAddr1" value="<%= currentUser.getAddress().getStreetAddr1() %>"/></div>
+	<div><label>Street Address 2:</label><input type="text" name="streetAddr2" value="<%= currentUser.getAddress().getStreetAddr2() %>"/></div>
+	<div><label>City:</label><input type="text" name="city" value="<%= currentUser.getAddress().getCity() %>"/></div>
+	<div><label>State:</label><input type="text" name="state" value="<%= currentUser.getAddress().getState() %>"/></div>
+	<div><label>Zip Code:</label><input type="text" name="zipCode" value="<%= currentUser.getAddress().getZipCode()==null ? "" : currentUser.getAddress().getZipCode() %>"/></div>
+</div>
+<% if(currentUser.getLogin()!=null) { 
+	if("RESTAURANT".equals(currentUser.getLogin().getLoginType())) { %>
+
+<% 	} else { %> 
+
+<% 	}
+}%>
+

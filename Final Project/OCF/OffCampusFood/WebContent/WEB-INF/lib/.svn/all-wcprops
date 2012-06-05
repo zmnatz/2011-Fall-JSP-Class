@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27/trunk/OffCampusFood/WebContent/WEB-INF/lib
+END
+ojdbc14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27/trunk/OffCampusFood/WebContent/WEB-INF/lib/ojdbc14.jar
+END
+org.springframework.jdbc-3.0.5.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/12/trunk/OffCampusFood/WebContent/WEB-INF/lib/org.springframework.jdbc-3.0.5.RELEASE.jar
+END
+jstl-impl-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/25/trunk/OffCampusFood/WebContent/WEB-INF/lib/jstl-impl-1.2.jar
+END
+org.springframework.transaction-3.0.5.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/13/trunk/OffCampusFood/WebContent/WEB-INF/lib/org.springframework.transaction-3.0.5.RELEASE.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27/trunk/OffCampusFood/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar
+END
+org.springframework.core-3.0.5.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/13/trunk/OffCampusFood/WebContent/WEB-INF/lib/org.springframework.core-3.0.5.RELEASE.jar
+END
+org.springframework.beans-3.0.5.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/13/trunk/OffCampusFood/WebContent/WEB-INF/lib/org.springframework.beans-3.0.5.RELEASE.jar
+END
+junit-4.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27/trunk/OffCampusFood/WebContent/WEB-INF/lib/junit-4.8.2.jar
+END
+jstl-api-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/25/trunk/OffCampusFood/WebContent/WEB-INF/lib/jstl-api-1.2.jar
+END

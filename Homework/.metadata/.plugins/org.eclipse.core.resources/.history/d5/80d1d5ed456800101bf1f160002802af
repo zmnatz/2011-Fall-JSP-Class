@@ -1,0 +1,28 @@
+Ext.setup({
+    glossOnIcon: false,
+    onReady: function() {
+        var panel = new Ext.TabPanel({
+            fullscreen: true,
+            cardSwitchAnimation: 'slide',
+            title: 'Couch Potato',
+            dockedItems: [
+	              {
+	                  dock : 'top',
+	                  xtype: 'toolbar',
+	                  title: 'Standard Titlebar'
+	              },
+	              {
+	                  dock : 'top',
+	                  xtype: 'toolbar',
+	                  ui   : 'light',
+	                  items: [
+	                      {
+	                          text: 'Test Button'
+	                      }
+	                  ]
+	              }
+	          ],
+	          html: 'Testing'
+        });
+    }
+});

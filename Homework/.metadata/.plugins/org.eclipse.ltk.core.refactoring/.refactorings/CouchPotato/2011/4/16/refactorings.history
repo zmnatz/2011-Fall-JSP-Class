@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CouchPotatoRemote/WebContent/watchList.json&apos; to &apos;watchlist.json&apos;" description="Rename resource &apos;watchList.json&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/watchList.json" name="watchlist.json" stamp="1302994146212" updateReferences="true"/>
+</session>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="RegistrationInfo"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.Set"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.mail.Message"/>
+<fullyQualifiedTypeName name="javax.mail.Session"/>
+<fullyQualifiedTypeName name="javax.mail.internet.MimeMessage.RecipientType"/>
+<fullyQualifiedTypeName name="javax.mail.Transport"/>
+<fullyQualifiedTypeName name="HttpServletRequest"/>
+<fullyQualifiedTypeName name="Beans.RegistrationInfo"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="edu.jhu.cs605782.offcampusfood.dao.DaoFactory"/>
+<fullyQualifiedTypeName name="edu.jhu.cs605782.offcampusfood.entities.Login"/>
+</qualifiedTypeNameHistroy>

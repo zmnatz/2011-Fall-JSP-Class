@@ -1,0 +1,15 @@
+package edu.jhu.cs605782.ui;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+
+public abstract class AbstractOCFController extends HttpServlet {
+	protected Map<String,Object> initModel(HttpServletRequest request){
+		Map<String,Object> model = new HashMap<String,Object>();
+		
+		
+	}
+}

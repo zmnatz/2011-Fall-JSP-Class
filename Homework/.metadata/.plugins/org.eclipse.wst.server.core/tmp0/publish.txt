@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri May 13 06:43:44 EDT 2011
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Zaven\\My\ Dropbox\\School\\2011\ Spring\\HCI\\CouchPotatoRemote\\WebContent\\sencha-touch\\jsbuilder\\ycompressor\\ycompressor.jar=C\:\\Users\\Zaven\\My Dropbox\\Programs\\tomcat\\wtpwebapps\\CouchPotato\\sencha-touch\\jsbuilder\\ycompressor\\ycompressor.jar
+org.eclipse.jst.jee.server\:CouchPotato=C\:\\Users\\Zaven\\My Dropbox\\Programs\\tomcat\\wtpwebapps\\CouchPotato

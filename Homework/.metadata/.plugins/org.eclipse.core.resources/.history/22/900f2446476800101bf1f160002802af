@@ -1,0 +1,27 @@
+Ext.setup({
+    glossOnIcon: false,
+    onReady: function() {
+        var panel = new Ext.TabPanel({
+            fullscreen: true,
+            tabBarDock: 'bottom',
+            items: [
+                {
+                    title: 'Movies',
+                    html : '1'
+                },
+                {
+                    title: 'Friends',
+                    html : '2'
+                },
+                {
+                    title: 'Watch List',
+                    html : '3'
+                },
+                {
+                	title: 'Remote',
+                	html : '4'
+                }
+            ]
+        });
+    }
+});

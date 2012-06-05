@@ -1,0 +1,61 @@
+<html>
+<style>
+	.label {width: 60px; padding-right: 10px; padding-bottom: 3px; float:left}
+	.header { float: top; font-size: 26px; font-weight: bold; text-align: center}
+	.footer {float: right; position:relative; bottom:0}
+	
+	div.section {
+		border-width: 1px; border-style: solid; border-color:#444444;
+		margin:10px;
+		padding: 5px 5px 5px 5px;
+	}
+	.sectionTitle {
+		float: top;
+		font-size:16px;
+		position: relative;
+		top: -15px;
+		margin-left: 10px;
+		background-color: white;
+		padding-left:5px;
+		padding-right: 5px;
+		font-weight: bold;
+	}
+</style>
+<body>
+<form style="width: 510px">
+<div class="header">Johns Hopkins Annual Software Development Seminar</div>
+<div class="section">
+	<span class="sectionTitle">Contact Information</span><br/>
+	<span class="label">Name:</span><input type="text" id="name"/><br/>
+	<span class="label">E-mail:</span><input type="text" id="email"/>
+</div>
+<div class="section">
+	<span class="sectionTitle">Select your Courses</span><br/>
+	<select id="course" size="6">
+		<option value="A1">A1 - Web Services
+		<option value="A2">A2 - J2EE Design Patterns
+		<option value="A3">A3 - Service Oriented Architectures
+		<option value="A4">A4 - Enterprise Service Bus
+		<option value="A6">A6 - Secure Messaging
+		<option value="A7">A7 - Web Services Security
+	</select>
+</div>
+<div class="section">
+	<span class="sectionTitle">Employment Status</span><br/>
+	<input type="radio" id="status" name="status" value="E"/>	JHU Employee
+	<input type="radio" id="status" name="status" value="ST"/>	JHU Student
+	<input type="radio" id="status" name="status" value="SP"/>	Speaker
+	<input type="radio" id="status" name="status" value="O"/>	Other
+</div>
+<div class="section">
+	<span class="sectionTitle">Additional Fees and Charges</span><br/>
+	<input type="checkbox" id="hotelFee"/>Hotel Accommodation (Conference Guest Special Fee - Parking Included)<br/>
+	<input type="checkbox" id="parkingFee"/>Parking Permit
+</div>
+<div class="footer">
+	<input type="reset" value="Reset"/>
+	<input type="submit" name="submitApplication" value="Compute Seminar Costs"/>
+</div>
+</form>
+</body>
+</html>

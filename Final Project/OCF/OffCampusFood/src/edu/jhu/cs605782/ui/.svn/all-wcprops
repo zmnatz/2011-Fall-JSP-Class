@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/79/trunk/OffCampusFood/src/edu/jhu/cs605782/ui
+END
+WelcomeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/71/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/WelcomeController.java
+END
+AbstractOcfController.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/70/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/AbstractOcfController.java
+END
+OrderController.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/82/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/OrderController.java
+END
+EditCreditCardsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/62/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/EditCreditCardsController.java
+END
+UpdateInfoController.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/62/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/UpdateInfoController.java
+END
+RestaurantSearchController.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/66/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/RestaurantSearchController.java
+END
+OrderMenuController.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/82/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/OrderMenuController.java
+END
+EditOrders.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/63/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/EditOrders.java
+END
+LoginUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/47/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/LoginUser.java
+END
+LogoutUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/LogoutUser.java
+END
+CheckoutController.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/79/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/CheckoutController.java
+END
+EditMenuController.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/47/trunk/OffCampusFood/src/edu/jhu/cs605782/ui/EditMenuController.java
+END

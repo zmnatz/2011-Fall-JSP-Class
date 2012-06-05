@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files\Java\jdk1.6.0_23" version="1.6.0_23">
+<bootpath>
+<entry path="C:\Program Files\Java\jdk1.6.0_23\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_23\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_23\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_23\jre\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_23\jre\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_23\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_23\jre\lib\modules\jdk.boot.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_23\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jdk1.6.0_23\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Users\Zaven\My Dropbox\Programs\eclipse" version="1.6.0_23">
+<bootpath>
+<entry path="C:\Users\Zaven\My Dropbox\Programs\eclipse\jre\lib\resources.jar"/>
+<entry path="C:\Users\Zaven\My Dropbox\Programs\eclipse\jre\lib\rt.jar"/>
+<entry path="C:\Users\Zaven\My Dropbox\Programs\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\Zaven\My Dropbox\Programs\eclipse\jre\lib\jsse.jar"/>
+<entry path="C:\Users\Zaven\My Dropbox\Programs\eclipse\jre\lib\jce.jar"/>
+<entry path="C:\Users\Zaven\My Dropbox\Programs\eclipse\jre\lib\charsets.jar"/>
+<entry path="C:\Users\Zaven\My Dropbox\Programs\eclipse\jre\lib\modules\jdk.boot.jar"/>
+<entry path="C:\Users\Zaven\My Dropbox\Programs\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\Zaven\My Dropbox\Programs\eclipse\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\Zaven\My Dropbox\Programs\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\Java\jre6" version="1.6.0_23">
+<bootpath>
+<entry path="C:\Program Files\Java\jre6\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\modules\jdk.boot.jar"/>
+<entry path="C:\Program Files\Java\jre6\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre6\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre6\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Users\Zaven\Desktop\eclipse" version="1.6.0_23">
+<bootpath>
+<entry path="C:\Users\Zaven\Desktop\eclipse\jre\lib\resources.jar"/>
+<entry path="C:\Users\Zaven\Desktop\eclipse\jre\lib\rt.jar"/>
+<entry path="C:\Users\Zaven\Desktop\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\Zaven\Desktop\eclipse\jre\lib\jsse.jar"/>
+<entry path="C:\Users\Zaven\Desktop\eclipse\jre\lib\jce.jar"/>
+<entry path="C:\Users\Zaven\Desktop\eclipse\jre\lib\charsets.jar"/>
+<entry path="C:\Users\Zaven\Desktop\eclipse\jre\lib\modules\jdk.boot.jar"/>
+<entry path="C:\Users\Zaven\Desktop\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\Zaven\Desktop\eclipse\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\Zaven\Desktop\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\Java\jre1.5.0_22" version="1.5.0_22">
+<bootpath>
+<entry path="C:\Program Files\Java\jre1.5.0_22\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre1.5.0_22\lib\i18n.jar"/>
+<entry path="C:\Program Files\Java\jre1.5.0_22\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre1.5.0_22\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre1.5.0_22\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre1.5.0_22\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre1.5.0_22\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre1.5.0_22\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre1.5.0_22\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
